@@ -1,0 +1,53 @@
+/* -------------------------------- CSS Code By Nirav  ----------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bigcontainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #FFFFFF;
+}
+
+.container{
+    width: 70%;
+    height: 350px;
+    margin-top: 100px;
+    border-radius: 30px;
+    /* border: 2px solid gray; */
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: #D5982E;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+
+#quote{
+    font-size: 25px;
+}
+
+span{
+    font-size: 20px;
+    color: #D5982E;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Tahoma, Geneva, Verdana, sans-serif';
+}

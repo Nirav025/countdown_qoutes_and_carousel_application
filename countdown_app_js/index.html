@@ -1,0 +1,107 @@
+<!------------------------- Code By Nirav ---------------------------->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+
+
+ <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            height: 100dvh;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-position:left;
+            
+
+        }
+
+        #time {
+            font-family: 'monospace';
+            font-size: 100px;
+            color: white;
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 50px;
+        }
+
+        .text{
+            font-size: 20px;
+
+        }
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        #comingsoon{
+            font-size: 70px;
+            color: white;
+            font-family: 'Orbitron', sans-serif;
+            margin-bottom: 40px;
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <span id="comingsoon">COMING SOON</span>
+
+        <div id="time">
+
+            <div class="box">
+                <div id="day_ui"></div>
+                <div class="text">DAYS</div>
+            </div>
+
+            <div class="box">
+                <div id="hour_ui"></div>
+                <div class="text">HOURS</div>
+            </div>
+
+            <div class="box">
+                <div id="minute_ui"></div>
+                <div class="text">MINUTES</div>
+            </div>
+
+            <div class="box">
+                <div id="second_ui"></div>
+                <div class="text">SECONDS</div>
+            </div>
+
+          
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
