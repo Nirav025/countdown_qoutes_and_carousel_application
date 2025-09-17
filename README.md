@@ -53,7 +53,7 @@ An app that **displays random motivational quotes** on button click.
 <img src="auto_carousel_js/auto_carousel.png" alt="Automatic Carousel" width="600"/>
 
 ### ⏳ Countdown App
-<img src="./countdown.png" alt="Countdown App" width="600"/>
+<img src="countdown_app_js/countdown.png" alt="Countdown App" width="600"/>
 
 ### 💬 Quotes App
 <img src="./quotes.png" alt="Quotes App" width="600"/>
